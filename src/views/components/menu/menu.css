@@ -1,0 +1,70 @@
+/* Menu CSS */
+.menu {
+    background-color: transparent;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    padding: 10px;
+  }
+  
+  .menu_parent {
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    justify-content: space-between;
+  }
+  
+  .Tiret_1, .Tiret_2, .Tiret_3 {
+    border-radius: 10px;
+  }
+  
+  .Tiret_1 {
+    width: 35px;
+    height: 4px;
+  }
+  
+  .Tiret_2 {
+    width: 30px;
+    height: 4px;
+  }
+  
+  .Tiret_3 {
+    width: 25px;
+    height: 4px;
+  }
+  
+  .Tiret {
+    background-color: #43817e;
+  }
+  
+  .pulldown {
+    position: absolute;
+    z-index: 50;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.705);
+    visibility: hidden; 
+    opacity: 0; 
+    top: -100%; 
+    transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  
+  .pulldown.active {
+    visibility: visible;
+    opacity: 1;
+    top: 0;
+  }
+  .menu_link {
+    color: white;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+  

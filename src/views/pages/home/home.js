@@ -1,9 +1,18 @@
 import React from "react";
+import Banner from "../../components/banner/banner";
+import Menu from "../../components/menu/menu";
+import './home.css'
 
 function Home() {
 
     return(
-    <div>Home</div>
+    <body>
+        <header>
+            <Menu/>
+        </header>
+        <Banner />
+        test
+    </body>
     )
 }
 
