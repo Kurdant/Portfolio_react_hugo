@@ -1,0 +1,28 @@
+/* Menu CSS */
+.menu {
+    position: absolute;
+    background-color: transparent;
+    height: 12vh;
+    align-items: center;
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .menu.no-absolute {
+    position: static;
+    /* or another position value */
+  }
+  
+  .menu_links {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+  }
+  
+.link{
+    color: #bde9ffb8;
+}
+.link:hover{
+    cursor: pointer;
+}
