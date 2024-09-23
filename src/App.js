@@ -4,6 +4,7 @@ import Error from './views/pages/error404/error';
 import About from './views/pages/about/about';
 import Contact from './views/pages/contact/contact';
 import Projects from './views/pages/projects/projects';
+import Project from './views/pages/project/project';
 import Menu_Second from './views/components/menu_second/menu_second';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Router>
         <Menu_Second/>
         <Routes>
+          <Route path='/project/:id' element={<Project/>}/>
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/about' element={<About />} />
