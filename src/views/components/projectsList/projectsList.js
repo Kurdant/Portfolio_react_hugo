@@ -10,14 +10,17 @@ const ProjectsList = () => {
   return (
       <div className="projectsList">
         {displayedProjects.map((project) => (
-          <div key={project.id} className="projects">
-            <Link to={`/project/${project.id}`}>
-               <div className="projectsTitle"><h2>{project.title}</h2></div>
-               <div className="projectsDescription"><p>{project.description}</p></div>
-            </Link>
+          <div key={project.id} className="project">
+            <div className='projectLink'>
+              <span></span>
+              <Link to={`/project/${project.id}`} className='projectLinkContent'>
+                <div className="projectsTitle"><h2>{project.title}</h2></div>
+                <div className="projectsDescription"><p>{project.description}</p></div>
+              </Link>
+            </div>
           </div>
         ))}
-        </div>
+      </div>
   );
 };
 

@@ -4,4 +4,109 @@
     justify-content: space-around;
     padding: 1%;
     min-height: 100vh;
+    margin-top: 100px;
+}
+
+
+.project{
+    width: 45vw;
+    height: 50vh;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 50px;
+    padding: 20px 20px;
+}
+
+.projectLink{
+    position: relative;
+    display: block;
+    height: 100%;
+    padding-top: 5px;
+    color: white;
+}
+
+.project .projectLink{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: 0.5s;
+}
+
+.project .projectLink:hover{
+    transform: translateY(-20px);
+}
+
+.project .projectLink::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#13270248,#12549259);
+}
+
+.project .projectLink::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#13270248,#12549259);
+    filter: blur(30px);
+}
+
+.project .projectLink span{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.project .projectLink span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+}
+
+.project .projectLink .projectLinkContent{
+    position: relative;
+    padding: 50px 40px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+
+.projectsTitle h2{
+    text-decoration: none !important;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.projectsTitle h2{
+    text-decoration: none;
+    margin: 0;
+    font-size: 3rem;
+}
+
+
+.projectsTitle{
+    width: 45%;
+    color: white;
+}
+.projectsDescription{
+    width: 45%;
+    color: white;
+}
+.projectLinkContent {
+    text-decoration: none;
 }
