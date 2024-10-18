@@ -13,9 +13,11 @@ const ProjectsList = () => {
           <div key={project.id} className="project">
             <div className='projectLink'>
               <span></span>
-              <Link to={`/project/${project.id}`} className='projectLinkContent'>
+              <Link target='_blank' to={`${project.link}`} className='projectLinkContent'>
                 <div className="projectsTitle"><h2>{project.title}</h2></div>
                 <div className="projectsDescription"><p>{project.description}</p></div>
+                <div className="projectsDescription"><p>- {project.techno}</p></div>
+                <div className="projectsDescription"><p>{project.content}</p></div>
               </Link>
             </div>
           </div>

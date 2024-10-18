@@ -12,8 +12,11 @@ function Menu_Second() {
 
   return (
     <div className={menuClass}>
+      <div className="link" onClick={() => navigate('/')}>
+        <p>HOME</p>
+      </div>
       <div className="menu_links">
-        <div className="link" onClick={() => navigate('/')} style={{ color: colors.primary }}>ABOUT</div>
+        <div className="link" onClick={() => navigate('/about')} style={{ color: colors.primary }}>ABOUT</div>
         <div className="link" onClick={() => navigate('/projects')} style={{ color: colors.primary }}>PROJECTS</div>
         <div className="link" onClick={() => navigate('/contact')} style={{ color: colors.primary }}>CONTACT</div>
         <div className="link" onClick={() => navigate('/more')} style={{ color: colors.primary }}>MORE..</div>

@@ -6,6 +6,7 @@ import Contact from './views/pages/contact/contact';
 import Projects from './views/pages/projects/projects';
 import Project from './views/pages/project/project';
 import Menu_Second from './views/components/menu_second/menu_second';
+import More from './views/pages/more/more';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
+          <Route path='/more' element={<More />} />
           <Route path='/*' element={<Error />} />
         </Routes>
       </Router>

@@ -1,27 +1,74 @@
 [
-    {
+  {
     "id": "1",
-    "title": "Project 1",
-    "description": "Description du deuxième projet."
+    "title": "Monte-Carlo Gastronomie",
+    "description": "Site vitrine pour un salon culinaire à Monte-Carlo.",
+    "techno": "PrestaShop, Léo Thème",
+    "content": "J'ai développé ce site vitrine sous PrestaShop avec le builder Leo Thème. J'ai réalisé l'intégralité du projet presque en solo, avec quelques aides ponctuelles, afin de créer une plateforme attractive pour le salon Monte-Carlo Gastronomie.",
+    "link": "https://montecarlogastronomie.com"
   },
   {
     "id": "2",
-    "title": "Project 2",
-    "description": "Description du deuxième projet."
+    "title": "UMS",
+    "description": "Site vitrine pour le groupe UMS.",
+    "techno": "WordPress, Avada",
+    "content": "Ce projet réalisé sous WordPress avec le builder Avada m'a permis de participer activement à la conception du site vitrine du groupe UMS. J'ai travaillé en équipe, contribuant notamment à la mise en place du design et des fonctionnalités clés.",
+    "link": "https://ums.shenron.dev/"
   },
   {
     "id": "3",
-    "title": "Project 3",
-    "description": "Description du deuxième projet."
+    "title": "Aparanjan Paris",
+    "description": "E-commerce pour une marque de bijoux parisiens.",
+    "techno": "PrestaShop",
+    "content": "Bien que je n'aie pas réalisé le site initial, j'ai effectué plusieurs modifications sur le site Aparanjan Paris, optimisant certaines fonctionnalités sous PrestaShop pour améliorer l'expérience utilisateur et l'efficacité du site e-commerce.",
+    "link": "https://www.aparanjanparis.com"
   },
   {
     "id": "4",
-    "title": "Project 4",
-    "description": "Description du deuxième projet."
+    "title": "Acquagest",
+    "description": "Tableau de bord administrateur pour la gestion de boîtiers.",
+    "techno": "React",
+    "content": "J'ai contribué au développement de ce tableau de bord en React, utilisé pour gérer des boîtiers à distance via une API. Mon rôle a consisté à développer des fonctionnalités spécifiques et à améliorer l'interface utilisateur pour cette solution B2B.",
+    "link": "https://www.acquagest.acquaprocess.com"
   },
   {
     "id": "5",
-    "title": "Project 5",
-    "description": "Description du deuxième projet."
+    "title": "C-Riviera",
+    "description": "Site vitrine pour une agence immobilière sur la Côte d'Azur.",
+    "techno": "PrestaShop",
+    "content": "Développé au début de mon alternance, ce site vitrine pour une agence immobilière a été réalisé quasiment en solo. Nous avons utilisé PrestaShop pour créer ce site avec Leo Theme gratuit, donc plutôt limité.",
+    "link": "https://c-riviera.fr/"
+  },
+  {
+    "id": "6",
+    "title": "Caroli Sécurité",
+    "description": "Site d'une entreprise de sécurité en Principauté de Monaco.",
+    "techno": "WordPress, Avada",
+    "content": "Pour ce projet, j'ai développé un site professionnel sous WordPress avec le thème Avada. J'ai pris en charge la plupart des aspects du développement pour mettre en place une plateforme qui reflète la fiabilité et le sérieux des services proposés par Caroli Sécurité.",
+    "link": "https://carolisecuriteprivee.mc/"
+  },
+  {
+    "id": "7",
+    "title": "Chiaracolombini",
+    "description": "Boutique en ligne pour une marque de décoration intérieure.",
+    "techno": "PrestaShop",
+    "content": "Bien que je n'aie pas créé le site initial, j'ai assuré la maintenance de la boutique en ligne, en effectuant des ajustements front-end et des modifications techniques comme la gestion des emails, améliorant ainsi la performance globale du site.",
+    "link": "https://www.chiaracolombini.com"
+  },
+  {
+    "id": "8",
+    "title": "Flair Evolution",
+    "description": "Site de présentation pour une société de formation professionnelle.",
+    "techno": "WordPress, Avada",
+    "content": "L'un de mes premiers projets réalisés sous WordPress avec le thème Avada, ce site de présentation pour une entreprise de formation professionnelle a été un excellent exercice pour maîtriser les bases de WordPress et du design web.",
+    "link": "https://www.flairevolution.com/"
+  },
+  {
+    "id": "9",
+    "title": "K-Beauty",
+    "description": "E-commerce pour une boutique de cosmétiques coréens.",
+    "techno": "PrestaShop, Léo Thème",
+    "content": "Sur ce projet e-commerce pour une boutique de cosmétiques coréens, j'ai participé au développement de nombreuses fonctionnalités et à la personnalisation du code afin de dépasser les limites du builder Léo Thème. Cela a permis de créer une expérience de vente en ligne plus fluide et plus performante.",
+    "link": "https://kbeauty-cosmetics.com/"
   }
 ]

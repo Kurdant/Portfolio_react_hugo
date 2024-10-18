@@ -16,14 +16,6 @@ body {
     object-fit: cover; 
 }
 
-.banner_texte {
-    position: absolute;
-    top: 48%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
 .banner_texte h1 {
     color: #bde9ffb8;
     font-size: 5rem; 

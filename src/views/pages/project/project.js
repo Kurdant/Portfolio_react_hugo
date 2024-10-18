@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import projects from '../../../projects.json';
 import Error from '../error404/error';
+import './project.css'
+import Banner from '../../components/banner/banner';
 
 
 
@@ -19,9 +21,19 @@ const Fiche_Logement = () => {
   }
 
   return (
-    <div>
-      <p>{project.title}</p>
-    </div>
+    <body>
+      <div className='project_parent'>
+        <Banner className="project_background"/>
+        <div className='project_content'>
+          <div className='project_side_left'>
+            <div className='project_side_text'>
+              <p>{project.title}</p>
+              <p>{project.content}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
   );
 };
 

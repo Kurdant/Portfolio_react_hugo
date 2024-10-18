@@ -1,0 +1,12 @@
+.project_parent{
+
+}
+
+.project_content{
+    position: absolute;
+    top: 12vh;
+}
+
+.project_parent p{
+    color: white;
+}

@@ -9,7 +9,8 @@ function Banner(props) {
     <div className="banner">
         <img src={imageBackground} className="banner_img"/>
         <div className="banner_texte">        
-            <h1 style={{ color: colors.primary }}>{props.title}</h1>
+            <h1 className="title" style={{ color: colors.primary }}>{props.title}</h1>
+            <h2 className="subtitle" style={{ color: colors.primary }}>{props.subtitle}</h2>
         </div>
     </div>
     )

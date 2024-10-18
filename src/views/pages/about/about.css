@@ -1,0 +1,19 @@
+.about_parents{
+    background-color: rgb(2 20 18);
+    color: white;
+}
+
+.about_content{
+    padding: 1%;
+    
+}
+
+.about_content_side{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_content_left{
+    max-width: 65%;
+    margin-right: 20px;
+}
