@@ -21,10 +21,11 @@ function Menu() {
 
       <div className={`pulldown ${isPulldownOpen ? 'active' : ''}`}>
         <div className="close-btn" onClick={togglePulldown}>✖</div>
-        <div className="menu_link">test</div>
-        <div className="menu_link">test</div>
-        <div className="menu_link">test</div>
-        <div className="menu_link">test</div>
+        <div className="menu_link">Home</div>
+        <div className="menu_link">About</div>
+        <div className="menu_link">Projects</div>
+        <div className="menu_link">Contact</div>
+        <div className="menu_link">More</div>
       </div>
     </div>
   );

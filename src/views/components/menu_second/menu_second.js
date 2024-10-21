@@ -6,12 +6,9 @@ import './menu_second.css';
 function Menu_Second() {
   const navigate = useNavigate();
   const location = useLocation();
-  const [menuClass, setMenuClass] = useState("menu");
-
-
 
   return (
-    <div className={menuClass}>
+    <div className="menu_second">
       <div className="link" onClick={() => navigate('/')}>
         <p>HOME</p>
       </div>

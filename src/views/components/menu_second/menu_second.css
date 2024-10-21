@@ -1,5 +1,5 @@
 /* Menu CSS */
-.menu {
+.menu_second {
     position: absolute;
     background-color: transparent;
     height: 12vh;
@@ -10,7 +10,7 @@
     justify-content: space-around;
     top: 0;
   }
-  .menu.no-absolute {
+  .menu_second.no-absolute {
     position: static;
     /* or another position value */
   }
@@ -26,4 +26,10 @@
 }
 .link:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+  .menu_second{
+    display: none !important;
+  }
 }

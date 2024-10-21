@@ -43,12 +43,22 @@ body {
     flex-direction: column;
     align-items: flex-start;
 }
+@media screen and (max-width:950px) {
+    .banner_texte {
+        left: 35%;
+    }
+}
+@media screen and (max-width:750px) {
+    .banner_texte {
+        left: 50%;
+    }
+    .banner_texte h1 {
+        color: #bde9ffb8;
+        font-size: 3rem !important;
+    }
+}
 
 .banner_texte h1 {
     color: #bde9ffb8;
     font-size: 5rem;
-}
-
-.subtitle{
-    
 }

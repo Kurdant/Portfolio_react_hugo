@@ -7,12 +7,14 @@ import Projects from './views/pages/projects/projects';
 import Project from './views/pages/project/project';
 import Menu_Second from './views/components/menu_second/menu_second';
 import More from './views/pages/more/more';
+import Menu from './views/components/menu/menu';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Menu_Second/>
+        <Menu/>
         <Routes>
           <Route path='/project/:id' element={<Project/>}/>
           <Route path='/' element={<Home />} />
