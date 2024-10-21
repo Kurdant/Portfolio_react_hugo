@@ -55,7 +55,12 @@
     top: 0;
   }
   .menu_link {
+    margin-bottom:20px;
     color: white;
+    font-size: 2rem;
+  }
+  .pulldown{
+    padding-top: 20px
   }
   
   .close-btn {
