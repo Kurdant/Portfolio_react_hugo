@@ -9,14 +9,14 @@ function Menu_Second() {
 
   return (
     <div className="menu_second">
-      <div className="link" onClick={() => navigate('/')}>
+      {/* <div className="link" onClick={() => navigate('/')}>
         <p>HOME</p>
-      </div>
+      </div> */}
       <div className="menu_links">
-        <div className="link" onClick={() => navigate('/about')} style={{ color: colors.primary }}>ABOUT</div>
-        <div className="link" onClick={() => navigate('/projects')} style={{ color: colors.primary }}>PROJECTS</div>
-        <div className="link" onClick={() => navigate('/contact')} style={{ color: colors.primary }}>CONTACT</div>
-        <div className="link" onClick={() => navigate('/more')} style={{ color: colors.primary }}>MORE..</div>
+        <div className="link" onClick={() => navigate('/')} style={{ color: colors.primary }}>HOME</div>
+        <div className="link" onClick={() => navigate('/about')} style={{ color: colors.primary }}>A PROPOS</div>
+        <div className="link" onClick={() => navigate('/projects')} style={{ color: colors.primary }}>PROJETS</div>
+        <div className="link" onClick={() => navigate('/contact')} style={{ color: colors.primary }}>CONTACTE</div>
       </div>
     </div>
   );

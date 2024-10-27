@@ -6,7 +6,7 @@ function About() {
 
     return(
     <div className="about_parents">
-        <Banner title="ABOUT"/>
+        <Banner title="À PROPOS"/>
         <div className="about_content">
             <div className="about_content_side">
                 <div className="about_content_left">
