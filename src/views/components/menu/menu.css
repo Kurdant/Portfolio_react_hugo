@@ -61,7 +61,10 @@
     margin-left: 20px;
   }
   .pulldown{
-    padding-top: 20px
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .close-btn {
@@ -77,4 +80,18 @@
     .menu{
       display: none;
     }
+  }
+
+  .no-scroll {
+    overflow: hidden;
+  }
+  
+  .menu_links_socials{
+    color: white;
+    display: flex;
+    margin-bottom: 35px;
+    justify-content: space-around;
+  }
+  .menu_links_socials img{
+    width: 20px;
   }

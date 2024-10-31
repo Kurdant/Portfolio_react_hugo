@@ -1,7 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './menu.css';
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import colors from "../../../assets/colors/colors";
+import discord from "../../../assets/logos/discord.png"
+import instagram from "../../../assets/logos/instagram.png"
+import linkedin from "../../../assets/logos/linkedin.png"
+import github from "../../../assets/logos/github.png"
+
 
 function Menu() {
   const navigate = useNavigate();
@@ -16,6 +21,15 @@ function Menu() {
     setIsPulldownOpen(false); // Ferme le menu après la navigation
   };
 
+  useEffect(() => {
+    // Ajoute une classe au body pour désactiver le défilement quand le menu est ouvert
+    if (isPulldownOpen) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+  }, [isPulldownOpen]);
+
   return (
     <div>
       <div className="menu" onClick={togglePulldown}>
@@ -27,12 +41,20 @@ function Menu() {
       </div>
 
       <div className={`pulldown ${isPulldownOpen ? 'active' : ''}`}>
-        <div className="close-btn" onClick={togglePulldown} style={{ color: colors.primary }}>✖</div>
-        <div className="menu_link margin_top_menu" onClick={() => handleLinkClick('/')} style={{ color: colors.primary }}>Home</div>
-        <div className="menu_link" onClick={() => handleLinkClick('/about')} style={{ color: colors.primary }}>About</div>
-        <div className="menu_link" onClick={() => handleLinkClick('/projects')} style={{ color: colors.primary }}>Projects</div>
-        <div className="menu_link" onClick={() => handleLinkClick('/contact')} style={{ color: colors.primary }}>Contact</div>
-        <div className="menu_link" onClick={() => handleLinkClick('/more')} style={{ color: colors.primary }}>More</div>
+        <div>
+          <div className="close-btn" onClick={togglePulldown} style={{ color: colors.primary }}>✖</div>
+          <div className="menu_link margin_top_menu" onClick={() => handleLinkClick('/')} style={{ color: colors.primary }}>Home</div>
+          <div className="menu_link" onClick={() => handleLinkClick('/about')} style={{ color: colors.primary }}>About</div>
+          <div className="menu_link" onClick={() => handleLinkClick('/projects')} style={{ color: colors.primary }}>Projects</div>
+          <div className="menu_link" onClick={() => handleLinkClick('/contact')} style={{ color: colors.primary }}>Contact</div>
+          <div className="menu_link" onClick={() => handleLinkClick('/more')} style={{ color: colors.primary }}>More</div>
+        </div>
+        <div className="menu_links_socials">
+          <div><Link to="https://discord.gg/5KEARqNJux" target="_blank"><img src={discord}/></Link></div>
+          <div><Link to="https://www.instagram.com/hugo_paynaud/" target="_blank"><img src={instagram}/></Link></div>
+          <div><Link to="https://www.linkedin.com/in/hugo-paynaud/" target="_blank"><img src={linkedin}/></Link></div>
+          <div><Link to="https://github.com/Kurdant" target="_blank"><img src={github}/></Link></div>
+        </div>
       </div>
     </div>
   );
