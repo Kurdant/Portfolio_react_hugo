@@ -18,5 +18,6 @@ body {
 
 .banner_texte h1 {
     color: #bde9ffb8;
-    font-size: 5rem; 
+    font-size: 20vw; 
+    margin: 0;
 }

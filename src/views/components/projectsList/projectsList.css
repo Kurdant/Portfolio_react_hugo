@@ -2,19 +2,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 1%;
-    min-height: 100vh;
-    margin-top: 100px;
+    padding: 3% 1% 1% 1%;
+    min-height: 50vh;
 }
 
 
 .project{
-    width: 45vw;
-    height: 60vh;
+    width: 30vw;
+    height: 45vh;
     margin-bottom: 20px;
     padding-top: 10px;
     border-radius: 50px;
-    padding: 20px 20px;
+    padding: 20px 10px;
 }
 
 
@@ -74,32 +73,47 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 70%;
     height: 100%;
     background: rgba(255,255,255,0.1);
 }
 
 .project .projectLink .projectLinkContent{
     position: relative;
-    padding: 50px 40px;
+    padding: 15px 25px;
     z-index: 10;
-    width: 100%;
-    height: 100%;
+}
+
+.projectsList_button{
+    display: flex;
+    justify-content: center;
+}
+.projectsList_button a{ 
+    padding: 15px;
+    border-radius: 5px;
+}
+.projectsList_button a:hover{ 
+    background: rgba(189, 233, 255, 0.72) !important;
+    color: black;
+    cursor: pointer;
 }
 
 .projectsTitle h2{
     text-decoration: none !important;
     margin: 0;
-    font-size: 2.3rem;
+    font-size: 2vw;
 }
 
 .projectsTitle{
-    width: 45%;
+    width: 100%;
     color: white;
 }
 .projectsDescription{
-    width: 45%;
+    width: 100%;
     color: white;
+}
+.projectsDescription p{
+    font-size: 1.2vw;
 }
 .projectLinkContent {
     text-decoration: none;

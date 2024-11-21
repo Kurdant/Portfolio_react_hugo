@@ -23,6 +23,7 @@
   
 .link{
     color: #bde9ffb8;
+    font-size: 1.5vw;
 }
 .link:hover{
     cursor: pointer;

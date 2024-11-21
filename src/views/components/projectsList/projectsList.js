@@ -2,12 +2,17 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import projectsJson from '../../../projects.json'
 import './projectsList.css'
+import colors from '../../../assets/colors/colors';
+import { useNavigate, useLocation } from "react-router-dom";
+
 
 const ProjectsList = () => {
   const [projects, setProjects] = useState(projectsJson)
-  const displayedProjects = projects.slice();
+  const displayedProjects = projects.slice(0, 3);
+  const navigate = useNavigate();
 
   return (
+    <div>
       <div className="projectsList">
         {displayedProjects.map((project) => (
           <div key={project.id} className="project">
@@ -23,6 +28,10 @@ const ProjectsList = () => {
           </div>
         ))}
       </div>
+      <div className='projectsList_button' style={{color: colors.primary,}}>
+        <a onClick={() => navigate('/projects')} style={{background: colors.menu}}>Voir tout les projets</a>
+      </div>
+    </div>
   );
 };
 

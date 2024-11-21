@@ -8,7 +8,7 @@ function Projects() {
 
     return(
         <body style={{backgroundColor: colors.backgroung}}>
-            <Banner title="PROJECTS" subtitle="Les projets sur lequel j'ai travaillé"/>
+            <Banner title="PROJETS" subtitle="Les projets sur lequel j'ai travaillé"/>
             <div>
                 <ProjectsList/>
             </div>

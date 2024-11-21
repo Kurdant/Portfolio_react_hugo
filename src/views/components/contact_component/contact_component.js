@@ -1,7 +1,7 @@
 import React, {useRef} from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Banner from "../../components/banner/banner";
-import './contact.css'
+import './contact_component.css'
 import colors from "../../../assets/colors/colors";
 import emailjs from '@emailjs/browser'
 import discord from "../../../assets/logos/discord.png"
@@ -9,7 +9,7 @@ import instagram from "../../../assets/logos/instagram.png"
 import linkedin from "../../../assets/logos/linkedin.png"
 import github from "../../../assets/logos/github.png"
 
-function Contact() {
+function Contact_Component() {
 
     // const form = useRef(); 
     // const sendEmail = (e) => { e.preventDefault(); emailjs .sendForm( process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY ) .then( (result) => { alert('message sent successfully...'); console.log(result.text); }, (error) => { console.log(error.text); } ); }; 
@@ -17,8 +17,6 @@ function Contact() {
 
     return (
         <div>
-            <Banner title="CONTACTE" />
-            
             <div className="contact" style={{ background: colors.backgroung }}>
             <div>
                 <h1>Contactez-moi pour une idée de projet :)</h1>
@@ -77,7 +75,7 @@ function Contact() {
     )
 }
 
-export default Contact;
+export default Contact_Component;
 
 // service_zekwf88
 

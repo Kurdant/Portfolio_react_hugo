@@ -18,11 +18,10 @@ function Menu() {
 
   const handleLinkClick = (path) => {
     navigate(path);
-    setIsPulldownOpen(false); // Ferme le menu après la navigation
+    setIsPulldownOpen(false);
   };
 
   useEffect(() => {
-    // Ajoute une classe au body pour désactiver le défilement quand le menu est ouvert
     if (isPulldownOpen) {
       document.body.classList.add('no-scroll');
     } else {

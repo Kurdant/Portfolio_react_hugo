@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.projects_component{
+    padding-bottom: 45px;
+}
+
+.projects_component_title h2{
+    font-size: 3vw;
+    margin: 0 0 0 2%;
+}
+.projects_component_title{
+    padding-top: 15%;
+}
