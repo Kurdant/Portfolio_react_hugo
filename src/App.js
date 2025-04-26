@@ -13,8 +13,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Menu_Second/>
-        <Menu/>
         <Routes>
           <Route path='/project/:id' element={<Project/>}/>
           <Route path='/' element={<Home />} />

@@ -84,20 +84,6 @@
     z-index: 10;
 }
 
-.projectsList_button{
-    display: flex;
-    justify-content: center;
-}
-.projectsList_button a{ 
-    padding: 15px;
-    border-radius: 5px;
-}
-.projectsList_button a:hover{ 
-    background: rgba(189, 233, 255, 0.72) !important;
-    color: black;
-    cursor: pointer;
-}
-
 .projectsTitle h2{
     text-decoration: none !important;
     margin: 0;

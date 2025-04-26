@@ -11,11 +11,11 @@ function Home() {
 
     return(
     <body>
-        <Banner title="KURDANT" subtitle="Tous vos projets web, réalisés à votre image." />
-        <About_Component/>
+                <Menu/>
+        <Banner title="KURDANT" subtitle="Web Designer" />
+        {/* <About_Component/>
         <Projects_Component/>
-        <Contact_Component/>
-        
+        <Contact_Component/> */}
     </body>
     )
 }

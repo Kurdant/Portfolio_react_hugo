@@ -28,9 +28,6 @@ const ProjectsList = () => {
           </div>
         ))}
       </div>
-      <div className='projectsList_button' style={{color: colors.primary,}}>
-        <a onClick={() => navigate('/projects')} style={{background: colors.menu}}>Voir tout les projets</a>
-      </div>
     </div>
   );
 };
