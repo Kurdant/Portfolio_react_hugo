@@ -11,8 +11,8 @@ function Home() {
 
     return(
     <body>
-                <Menu/>
-        <Banner title="KURDANT" subtitle="Web Designer" />
+        <Menu/>
+        <Banner title="KURDANT" subtitle="Lance ta boutique en ligne, Je m'occupe de tout" text="Je crée ta boutique en ligne de A à Z pour lancer ton business e-commerce, sans se prendre la tête avec la technique." />
         {/* <About_Component/>
         <Projects_Component/>
         <Contact_Component/> */}

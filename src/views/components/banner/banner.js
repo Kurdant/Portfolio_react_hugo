@@ -15,6 +15,7 @@ function Banner(props) {
         <div className="banner_texte">        
             <h1 className="title" style={{ color: colors.primary }}>{props.title}</h1>
             <h2 className="subtitle" style={{ color: colors.primary }}>{props.subtitle}</h2>
+            <p className="text" style={{ color: colors.primary }}>{props.text}</p>
             <Button link="/projects"/>
         </div>
         <div>

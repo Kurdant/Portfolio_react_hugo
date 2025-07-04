@@ -23,9 +23,9 @@ body {
 
 .banner_texte {
     position: absolute;
-    top: 35%;
-    left: 27%;
-    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 5%;
+    /* transform: translate(-50%, -50%); */
     text-align: center;
     z-index: 2; 
     display: flex;
@@ -33,17 +33,24 @@ body {
     align-items: flex-start;
 }
 .subtitle{
-    margin: 0 0 0 0px;
-    font-size: 2vw;
+    margin: 20px 0 0 0px;
+    font-size: 4vw;
+    font-weight: 400;
+}
+.text{
+    margin: 30px 0 0 0px;
+    font-size: 3vw;
+    text-align: left;
+    font-weight: 300;
 }
 @media screen and (max-width:950px) {
     .banner_texte {
-        left: 35%;
+        left: 5%;
     }
 }
 @media screen and (max-width:750px) {
     .banner_texte {
-        left: 50%;
+        left: 5%;
     }
     .banner_texte h1 {
         color: #bde9ffb8;
